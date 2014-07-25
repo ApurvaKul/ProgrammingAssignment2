@@ -1,5 +1,5 @@
 ## The program is about the caching the inverse of the Matrix.
-##The program defined the two functions MakeCacheMatrix to assigne a cache matrix 
+##The program defined the two functions MakeCacheMatrix to assign a cache matrix 
 ## and cacheSolve function to inverse the given matrix and store into cachematrix
 ## Assumption: The input matrix is square inversible matrix
 
@@ -35,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## If already computed directly get the computed inverse matrix from cache
 
 cacheSolve <- function(x, ...) {
-     	m <- $getInverse()
+     	m <- getInverse()
 
 	if (!is.null(m))						# Check whether the matrix already computed
 	{
